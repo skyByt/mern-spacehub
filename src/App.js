@@ -14,7 +14,7 @@ const App = () => {
 
   useEffect(() => {
     const getUser = () => {
-      fetch("https://mern-spacehub.herokuapp.com/auth/login/success", {
+      fetch("https://cozy-pudding-671577.netlify.app/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {
