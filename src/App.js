@@ -14,7 +14,7 @@ const App = () => {
 
   useEffect(() => {
     const getUser = () => {
-      fetch("http://mern-spacehub.herokuapp.com/auth/login/success", {
+      fetch("https://mern-spacehub.herokuapp.com/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {
@@ -36,6 +36,7 @@ const App = () => {
     };
     getUser();
   }, []);
+  console.log(user);
 
   return (
     <Router>
