@@ -14,7 +14,7 @@ const App = () => {
 
   useEffect(() => {
     const getUser = () => {
-      fetch("http://localhost:5000/auth/login/success", {
+      fetch("https://mern-spacehub.herokuapp.com/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {
