@@ -14,7 +14,7 @@ import Facebook from '../../components/assets/facebook.png'
 
 const SignIn = () => {
   const google = ()=> {
-    window.open("https://mern-spacehub.herokuapp.com/auth/google", "_self")
+    window.open("http://mern-spacehub.herokuapp.com/auth/google", "_self")
   }
   return (
     <>
